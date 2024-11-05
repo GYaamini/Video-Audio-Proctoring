@@ -17,7 +17,7 @@ if __name__ == "__main__":
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
     cap.set(cv2.CAP_PROP_FPS,2)
     detector=dlib.get_frontal_face_detector()
-    predictor=dlib.shape_predictor("C:/GOWDATA/AmritaCollege/SIH2023/Updates/Proctoring/Resources/shape_predictor_68_face_landmarks.dat")
+    predictor=dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") #download the .dat file from Resources
     silhouetteImg,height,width=silhouette()
     
     # Read video input stream
