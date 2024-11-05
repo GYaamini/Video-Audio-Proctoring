@@ -1,0 +1,12 @@
+numpy
+opencv
+dlib
+cvzone
+pyaudio
+speech_recognition
+deepface
+face_recognition
+flask
+flask-socketio
+pyautogui
+cmake
