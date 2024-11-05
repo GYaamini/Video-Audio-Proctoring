@@ -5,7 +5,7 @@ import cvzone
 
 def silhouette():
     #Load the silhouette image for positioning the candidate
-    silhouetteImg = cv2.imread("C:/GOWDATA/AmritaCollege/SIH2023/Updates/Proctoring/Resources/silhouette.png",cv2.IMREAD_UNCHANGED)
+    silhouetteImg = cv2.imread("Resources/silhouette.png",cv2.IMREAD_UNCHANGED)
     silhouetteImg=cv2.resize(silhouetteImg,(0,0),None,0.3,0.3)
     height,width,_=silhouetteImg.shape
     return silhouetteImg,height,width
