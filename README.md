@@ -15,12 +15,6 @@ Existing proctoring tools fail to address:
 This project tackles these gaps with context-aware monitoring.
 
 ---
-## 📷 Sample Output 
-Stressed | Looking Away | Unfocused
-:-------------------------:|:-------------------------:|:-------------------------:
-![Sample (1)](https://github.com/user-attachments/assets/3e37f530-e2db-46ef-b829-9a1d859a3302) | ![Sample (2)](https://github.com/user-attachments/assets/cae6a018-de60-4613-8493-deafab4ebd91) | ![Sample (3)](https://github.com/user-attachments/assets/e5ea760d-cef6-4709-a2a5-27fc22f24a01)
-
----
 ## ✨ Key Features
 Module | Technology Used |	Detection Capability
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -51,5 +45,11 @@ Gaze Vector Calculation: Pupil localization with `dlib.shape_predictor`**
 
     Warning Triggers:
     - Any helping words: Google, Find, Code, Answer, Question, Internet, Search, How, What, Quick, Hurry, Now
+
+---
+## 📷 Sample Output 
+Stressed | Looking Away | Unfocused
+:-------------------------:|:-------------------------:|:-------------------------:
+![Sample (1)](https://github.com/user-attachments/assets/3e37f530-e2db-46ef-b829-9a1d859a3302) | ![Sample (2)](https://github.com/user-attachments/assets/cae6a018-de60-4613-8493-deafab4ebd91) | ![Sample (3)](https://github.com/user-attachments/assets/e5ea760d-cef6-4709-a2a5-27fc22f24a01)
 
 ---
